@@ -168,8 +168,9 @@ Apply the firewall policies:
 
 .. code-block:: none
 
-  set interfaces ethernet eth0 firewall in name 'OUTSIDE-IN'
-  set interfaces ethernet eth0 firewall local name 'OUTSIDE-LOCAL'
+  set firewall interface eth1 in name 'OUTSIDE-IN'
+  set firewall interface eth1 local name 'OUTSIDE-LOCAL'
+
 
 Commit changes, save the configuration, and exit configuration mode:
 
